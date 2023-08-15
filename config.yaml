@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Gooner Network Status Page'
   url: 'https://ops-status.goonernet.work' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -37,13 +37,13 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
   
-  - id: jerryflynn-demonad-xyz
+  - id: jerryflynn-demondad-xyz
     name: Jerry Flynn 
-    description: 'Jerry.'
+    description: 'Jerry Flynn the Jellyfin'
     url: 'https://jerryflynn.demondad.xyz/health'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
     
   - id: Argo-Tunnel-1
     name: Cletus 
