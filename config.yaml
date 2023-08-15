@@ -45,13 +45,13 @@ monitors:
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
     
-  - id: Argo-Tunnel-1
-    name: Argo Tunnel 1 (Cletus)
-    description: 'Argo Tunnel 1'
-    url: 'https://at1.goonernet.work/'
-    method: GET
-    expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+#  - id: Argo-Tunnel-1
+#    name: Argo Tunnel 1 (Cletus)
+#    description: 'Argo Tunnel 1'
+#    url: 'https://at1.goonernet.work/'
+#    method: GET
+#    expectStatus: 200
+#    linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-2
     name: Argo Tunnel 2 (Kub)
