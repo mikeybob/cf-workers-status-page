@@ -40,7 +40,7 @@ monitors:
   - id: jerryflynn-demonad-xyz
     name: Jerry Flynn 
     description: 'Jerry.'
-    url: 'https://jerryflynn.demondad.xyz'
+    url: 'https://jerryflynn.demondad.xyz/health'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
