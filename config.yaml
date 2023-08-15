@@ -36,4 +36,12 @@ monitors:
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
     method: GET
+  
+  - id: jerryflynn-demonad-xyz
+    name: Jerry Flynn 
+    description: 'Jerry.'
+    url: 'https://jerryflynn.demondad.xyz'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
     expectStatus: 200
