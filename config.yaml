@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://ops-status.goonernet.work' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -46,28 +46,28 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
   - id: Argo-Tunnel-1
-    name: Kub 
+    name: Cletus 
     description: 'Argo Tunnel 1'
     url: 'https://at1.goonernet.work'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-2
-    name: SixtyFour 
+    name: Kub 
     description: 'Argo Tunnel 2'
     url: 'https://at2.goonernet.work'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-3
-    name: Cletus 
+    name: SixtyFour 
     description: 'Argo Tunnel 3'
     url: 'https://at3.goonernet.work'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-4
     name: Neon 
@@ -75,4 +75,4 @@ monitors:
     url: 'https://at4.goonernet.work'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
