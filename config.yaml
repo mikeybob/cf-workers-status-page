@@ -50,7 +50,7 @@ monitors:
     description: 'Argo Tunnel 1'
     url: 'https://at1.goonernet.work/'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-2
@@ -74,5 +74,5 @@ monitors:
     description: 'Argo Tunnel 4'
     url: 'https://at4.goonernet.work/'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
