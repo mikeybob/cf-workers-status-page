@@ -46,7 +46,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
     
   - id: Argo-Tunnel-1
-    name: Cletus 
+    name: Argo Tunnel 1 (Cletus)
     description: 'Argo Tunnel 1'
     url: 'https://at1.goonernet.work/'
     method: GET
@@ -54,7 +54,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-2
-    name: Kub 
+    name: Argo Tunnel 2 (Kub)
     description: 'Argo Tunnel 2'
     url: 'https://at2.goonernet.work/'
     method: GET
@@ -62,7 +62,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-3
-    name: SixtyFour 
+    name: Argo Tunnel 3 (SixtyFour)
     description: 'Argo Tunnel 3'
     url: 'https://at3.goonernet.work/'
     method: GET
