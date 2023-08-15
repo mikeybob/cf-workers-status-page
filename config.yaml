@@ -74,5 +74,5 @@ monitors:
     description: 'Argo Tunnel 4'
     url: 'https://at4.goonernet.work'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
     linkable: false # allows the title to be a link, default=true
