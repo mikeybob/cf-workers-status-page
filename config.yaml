@@ -70,9 +70,9 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: Argo-Tunnel-4
-    name: Neon 
+    name: Argo Tunnel 4 (Neon) 
     description: 'Argo Tunnel 4'
     url: 'https://at4.goonernet.work/'
     method: GET
-    expectStatus: 1033
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
