@@ -44,3 +44,35 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+    
+  - id: Argo-Tunnel-1
+    name: Kub 
+    description: 'Argo Tunnel 1'
+    url: 'https://at1.goonernet.work'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: Argo-Tunnel-2
+    name: SixtyFour 
+    description: 'Argo Tunnel 2'
+    url: 'https://at2.goonernet.work'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: Argo-Tunnel-3
+    name: Cletus 
+    description: 'Argo Tunnel 3'
+    url: 'https://at3.goonernet.work'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: Argo-Tunnel-4
+    name: Neon 
+    description: 'Argo Tunnel 4'
+    url: 'https://at4.goonernet.work'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
