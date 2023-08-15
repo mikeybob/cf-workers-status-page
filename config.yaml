@@ -27,7 +27,7 @@ monitors:
   - id: www-cloudflare-com
     name: www.cloudflare.com
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://www.cloudflare.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -40,7 +40,7 @@ monitors:
   - id: jerryflynn-demondad-xyz
     name: Jerry Flynn 
     description: 'Jerry Flynn the Jellyfin'
-    url: 'https://jerryflynn.demondad.xyz/health'
+    url: 'https://jerryflynn.demondad.xyz/health/'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
@@ -48,7 +48,7 @@ monitors:
   - id: Argo-Tunnel-1
     name: Cletus 
     description: 'Argo Tunnel 1'
-    url: 'https://at1.goonernet.work'
+    url: 'https://at1.goonernet.work/'
     method: GET
     expectStatus: 404
     linkable: false # allows the title to be a link, default=true
@@ -56,7 +56,7 @@ monitors:
   - id: Argo-Tunnel-2
     name: Kub 
     description: 'Argo Tunnel 2'
-    url: 'https://at2.goonernet.work'
+    url: 'https://at2.goonernet.work/'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
@@ -64,7 +64,7 @@ monitors:
   - id: Argo-Tunnel-3
     name: SixtyFour 
     description: 'Argo Tunnel 3'
-    url: 'https://at3.goonernet.work'
+    url: 'https://at3.goonernet.work/'
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
@@ -72,7 +72,7 @@ monitors:
   - id: Argo-Tunnel-4
     name: Neon 
     description: 'Argo Tunnel 4'
-    url: 'https://at4.goonernet.work'
+    url: 'https://at4.goonernet.work/'
     method: GET
     expectStatus: 404
     linkable: false # allows the title to be a link, default=true
