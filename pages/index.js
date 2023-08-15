@@ -99,12 +99,12 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
               Flareact{' '}
             </a>
           </div>
-          <div>
-            <a
+         // <div>
+         // <a
             //  href="https://github.com/eidam/cf-workers-status-page"
             //  target="_blank"
-            >
-            //  Get Your Status Page
+         //   >
+              -
             </a>
           </div>
         </div>
