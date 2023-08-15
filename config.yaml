@@ -1,5 +1,5 @@
 settings:
-  title: 'Gooner Network Status Page'
+  title: 'Gooner Network Status'
   url: 'https://ops-status.goonernet.work' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 60 # number of days you want to display in histogram
