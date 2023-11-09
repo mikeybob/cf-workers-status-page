@@ -134,3 +134,5 @@ worker/
 out/
 package-lock.json
 public/style.css
+
+*.DS_Store
