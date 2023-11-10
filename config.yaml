@@ -37,7 +37,7 @@ monitors:
     description: 'Jerry Flynn Sr. the Jellyfin'
     url: 'https://jerryflynn.wankmonkey.net/health/'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
     linkable: false # allows the title to be a link, default=true
 
 
