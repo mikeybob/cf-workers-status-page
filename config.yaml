@@ -39,6 +39,3 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
-
-
-    linkable: false # allows the title to be a link, default=true
