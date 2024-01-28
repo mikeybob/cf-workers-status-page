@@ -39,11 +39,3 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
-
-  - id: Argo-Tunnel-3
-    name: Argo Tunnel 3 (SixtyFour)
-    description: 'Argo Tunnel 3'
-    url: 'https://at3.nerdperv.net/'
-    method: GET
-    expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
